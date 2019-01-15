@@ -365,7 +365,7 @@ body {
 #logo,
 #subtitle {
   text-decoration: none;
-  color: #393e46;
+  color: #000;
   font-weight: 300;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
@@ -440,6 +440,12 @@ body {
 }
 #nav-rss-link:before {
   content: "\f09e";
+}
+#nav-twitter-link:before {
+  content: "\f099";
+}
+#nav-facebook-link:before {
+  content: "\f09a";
 }
 #nav-search-btn:before {
   content: "\f002";
